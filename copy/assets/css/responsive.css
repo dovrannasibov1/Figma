@@ -1,0 +1,103 @@
+@media screen and (max-width: 1300px) {
+    .carusel_title {
+      font-size: 30px;
+      line-height: 50px;
+    }
+    .nav-list {
+      gap: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .info_image {
+      width: 100%;
+    }
+    .carusel {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+    }
+    .info {
+      flex-direction: column-reverse;
+    }
+    .nav-list {
+      display: none;
+    }
+    .carusel_desc {
+      font-size: 18px;
+    }
+  
+    .title_mid {
+      font-size: 30px;
+      line-height: 30px;
+    }
+    .btn_ham {
+      display: block;
+    }
+    .card_info {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .feature {
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+  
+    .propos_feature {
+      padding-top: 20px;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    .feature_info {
+      width: 100%;
+      align-items: center;
+    }
+    .feature_title {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .logo_title {
+      display: none;
+    }
+    .feature_title {
+      font: size 24px;
+      text-align: center;
+    }
+    .title_card {
+      padding: 10px 0;
+    }
+    .feature_info {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .title_desc {
+      width: 100%;
+    }
+    .cards_intro {
+      width: 100%;
+    }
+    .members_widget {
+      width: 100%;
+    }
+    .proposal_widget {
+      position: relative;
+      width: 100%;
+    }
+    .prop_button {
+      position: absolute;
+      width: 100%;
+      bottom: 8px;
+      left: 0;
+    }
+    .feature_desc {
+      width: 100%;
+    }
+  }

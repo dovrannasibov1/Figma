@@ -1,0 +1,115 @@
+.feature {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature_general {
+    width: 80%;
+    display: flex;
+    gap: 140px;
+}
+
+.kickstart_cont {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.kickstart_cont img {
+    width: 80px;
+    height: 80px;
+}
+
+.kickstart_info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.kickstart_info h1 {
+    width: 644px;
+    color: var(--textBlack);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.kickstart_info p {
+    width: 644px;
+    color: var(--textBlack);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+}
+
+.members_cont {
+    width: 50%;
+}
+
+.members_cont {
+    width: 484px;
+    height: 400px;
+    padding-top: 32px;
+    padding-left: 40px;
+    border-radius: 16px;
+    border: 4px solid var(--textBlack);
+    background: var(--mainWhite);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.dillon_cont,
+.anna_cont,
+.kas_cont {
+    display: flex;
+    gap: 12px;
+}
+
+.dillon_cont img,
+.anna_cont img,
+.kas_cont img {
+    border-radius: 50%;
+}
+
+.dillon_info,
+.anna_info,
+.kas_info {
+    display: flex;
+    align-items: center;
+}
+
+.dillon_title,
+.anna_title,
+.kas_title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.d_name,
+.a_name,
+.k_name {
+    color: var(--textBlack);
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 26px;
+    letter-spacing: -0.48px;
+}
+
+.d_shares,
+.a_shares,
+.k_shares {
+    color: var(--textThin);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+}
