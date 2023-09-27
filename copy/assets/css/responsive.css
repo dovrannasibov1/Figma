@@ -1,103 +1,178 @@
-@media screen and (max-width: 1300px) {
-    .carusel_title {
-      font-size: 30px;
-      line-height: 50px;
-    }
+/* @media screen and (max-width: 1200px) {
     .nav-list {
-      gap: 10px;
+        gap: 20px;
     }
-  }
-  
-  @media screen and (max-width: 1000px) {
-    .info_image {
-      width: 100%;
+} */
+
+@media screen and (max-width: 1200px) {
+    .nav-list {
+        gap: 20px;
     }
-    .carusel {
-      width: 100%;
-      align-items: center;
-      text-align: center;
+    .carusel-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .carusel-desc {
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.36;
+    }
+    **************
+    .section {
+        gap: 44px;
+    }
+    .small_cont {
+        width: 290px;
+        height: 235px;
+    }
+    .small_cont h3 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .small_cont_p {
+        display: none;
+    }
+    .small_cont_p2 {
+        text-align: center;
+        display: block;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.36px;
+    }
+    .icon_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .modern_container,
+    .meritocratic_container,
+    .engineer_container {
+        width: 460px;
+        height: 390px;
+        gap: 18px;
+    }
+    /* **********
+    .feature_general {
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+    .kickstart_info h1 {
+        width: 350px;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 34px;
+    }
+    .kickstart_info p {
+        width: 440px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .members_cont {
+        width: 350px;
+        height: 340px;
+        margin-left: -20px;
+    } */
+}
+
+@media screen and (max-width:900px) {
+    .logo-title {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .three_dash_btn {
+        display: block;
+    }
+    .carusel,
+    .info-img {
+        width: 100%;
     }
     .info {
-      flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        gap: 28px;
     }
-    .nav-list {
-      display: none;
+    .carusel {
+        align-items: center;
+        text-align: center;
+        gap: 48px;
     }
-    .carusel_desc {
-      font-size: 18px;
+    .carusel-title {
+        font-size: 30px;
+        line-height: 40px;
     }
-  
-    .title_mid {
-      font-size: 30px;
-      line-height: 30px;
+    .carusel-desc {
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.36;
     }
-    .btn_ham {
-      display: block;
+    /* ************************** */
+    .section {
+        gap: 44px;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px; */
     }
-    .card_info {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+    .small_cont {
+        width: 291px;
+        height: 235px;
     }
-    .feature {
-      flex-direction: column;
-      align-items: center;
-      gap: 24px;
+    .small_cont h3 {
+        font-size: 30px;
+        line-height: 40px;
     }
-  
-    .propos_feature {
-      padding-top: 20px;
-      flex-direction: column;
-      align-items: center;
-      gap: 24px;
+    .small_cont_p {
+        display: none;
     }
-    .feature_info {
-      width: 100%;
-      align-items: center;
+    .small_cont_p2 {
+        text-align: center;
+        width: 291px;
+        height: 109px;
+        display: block;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.36px;
     }
-    .feature_title {
-      font-size: 30px;
-      line-height: 40px;
+    .icon_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        
     }
-  }
-  
-  @media screen and (max-width: 700px) {
-    .logo_title {
-      display: none;
+    .modern_container,
+    .meritocratic_container,
+    .engineer_container {
+        width: 320px;
+        height: 287px;
+        gap: 18px;
     }
-    .feature_title {
-      font: size 24px;
-      text-align: center;
+    /* ********************** */
+    .feature_general {
+        flex-direction: column;
+        align-items: start;
+        padding-top: 60px;
     }
-    .title_card {
-      padding: 10px 0;
+    .kickstart_info h1 {
+        width: 300px;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 34px;
     }
-    .feature_info {
-      text-align: center;
+    .kickstart_info p {
+        width: 300px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.36px;
     }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .title_desc {
-      width: 100%;
+    .members_cont {
+        width: 350px;
+        height: 340px;
+        margin-left: -20px;
     }
-    .cards_intro {
-      width: 100%;
-    }
-    .members_widget {
-      width: 100%;
-    }
-    .proposal_widget {
-      position: relative;
-      width: 100%;
-    }
-    .prop_button {
-      position: absolute;
-      width: 100%;
-      bottom: 8px;
-      left: 0;
-    }
-    .feature_desc {
-      width: 100%;
-    }
-  }
+}

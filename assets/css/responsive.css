@@ -1,178 +1,83 @@
-/* @media screen and (max-width: 1200px) {
-    .nav-list {
-        gap: 20px;
+@media screen and (max-width: 900px) {
+    section {
+        padding: 1rem 0;
     }
-} */
-
-@media screen and (max-width: 1200px) {
-    .nav-list {
-        gap: 20px;
-    }
-    .carusel-title {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .carusel-desc {
-        font-size: 18px;
-        line-height: 32px;
-        letter-spacing: -0.36;
-    }
-    **************
-    .section {
-        gap: 44px;
-    }
-    .small_cont {
-        width: 290px;
-        height: 235px;
-    }
-    .small_cont h3 {
-        font-size: 36px;
-        line-height: 44px;
-    }
-    .small_cont_p {
-        display: none;
-    }
-    .small_cont_p2 {
-        text-align: center;
-        display: block;
-        font-size: 24px;
-        line-height: 36px;
-        letter-spacing: -0.36px;
-    }
-    .icon_container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
-    }
-    .modern_container,
-    .meritocratic_container,
-    .engineer_container {
-        width: 460px;
-        height: 390px;
-        gap: 18px;
-    }
-    /* **********
-    .feature_general {
-        flex-direction: column;
-        align-items: start;
-        gap: 30px;
-    }
-    .kickstart_info h1 {
-        width: 350px;
-        font-size: 28px;
-        font-weight: 400;
-        line-height: 34px;
-    }
-    .kickstart_info p {
-        width: 440px;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20px;
-    }
-    .members_cont {
-        width: 350px;
-        height: 340px;
-        margin-left: -20px;
-    } */
-}
-
-@media screen and (max-width:900px) {
-    .logo-title {
+    .logo_title {
         display: none;
     }
     .navbar {
         display: none;
     }
-    .three_dash_btn {
+    .ham-btn {
         display: block;
     }
-    .carusel,
-    .info-img {
+    .collab_section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .collab_desc,
+    .collab_img {
         width: 100%;
     }
-    .info {
-        flex-direction: column-reverse;
-        gap: 28px;
-    }
-    .carusel {
+    .collab_desc {
         align-items: center;
-        text-align: center;
-        gap: 48px;
     }
-    .carusel-title {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .carusel-desc {
-        font-size: 18px;
-        line-height: 32px;
-        letter-spacing: -0.36;
-    }
-    /* ************************** */
-    .section {
-        gap: 44px;
-        /* display: flex;
+    .cards {
         flex-direction: column;
-        align-items: center;
-        gap: 50px; */
-    }
-    .small_cont {
-        width: 291px;
-        height: 235px;
-    }
-    .small_cont h3 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .small_cont_p {
-        display: none;
-    }
-    .small_cont_p2 {
-        text-align: center;
-        width: 291px;
-        height: 109px;
-        display: block;
-        font-size: 18px;
-        line-height: 32px;
-        letter-spacing: -0.36px;
-    }
-    .icon_container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         gap: 50px;
-        
     }
-    .modern_container,
-    .meritocratic_container,
-    .engineer_container {
-        width: 320px;
-        height: 287px;
-        gap: 18px;
+    .card {
+        width: 100%;
+        padding: 1.5rem;
     }
-    /* ********************** */
-    .feature_general {
+    .row {
         flex-direction: column;
-        align-items: start;
-        padding-top: 60px;
+        align-items: center;
     }
-    .kickstart_info h1 {
-        width: 300px;
-        font-size: 28px;
-        font-weight: 400;
-        line-height: 34px;
+    .row > div {
+        width: 100% !important;
     }
-    .kickstart_info p {
-        width: 300px;
+    .section_info {
+        text-align: center;
+        align-items: center;
+    }
+    .users_section {
+        flex-direction: column-reverse;
+    }
+    .help_us_cards {
+        flex-direction: column;   
+    }
+
+    .footer, .footer_nav-list {
+        flex-direction: column;
+    }
+    .footer {
+        gap: 2rem;
+    }
+    .footer_nav-list {
+        gap: 0.625rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-list {
+        gap: 20px;
+    }
+    .collab_desc h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .collab_desc p {
         font-size: 18px;
-        font-weight: 400;
-        line-height: 20px;
         letter-spacing: -0.36px;
+        margin-bottom: 20px;
     }
-    .members_cont {
-        width: 350px;
-        height: 340px;
-        margin-left: -20px;
+
+    .section_title {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .section_desc {
+        line-height: 32px;
     }
 }

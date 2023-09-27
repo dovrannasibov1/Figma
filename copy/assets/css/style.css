@@ -344,6 +344,14 @@ body {
   letter-spacing: -0.32px;
 }
 
+.three_dash_btn {
+  display: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  
+} 
+
 .prop_header_top {
   padding-top: 48px;
   display: flex;
@@ -406,7 +414,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 8px;
+  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   
 }
 
